@@ -18,10 +18,10 @@ export default async function ServiceDetailPage({ params }) {
 
     return (
         <div className="max-w-6xl m-auto px-6 pt-12 pb-20">
-           
+
             <div className="mb-6">
                 <Link
-                    href="/services"
+                    href="/ourservices"
                     className="text-blue-600 hover:underline text-sm font-medium"
                 >
                     ← Back to Services

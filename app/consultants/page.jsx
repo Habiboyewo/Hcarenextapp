@@ -55,7 +55,7 @@ export default async function ConsultantsPage() {
 
 
                                     <div className="pt-12 text-center bg-[#DEEEFF]/50 p-5  h-30 md:h-33 lg:h-30 -mb-2">
-                                        <h3 className="text-base md:text-lg font-medium">
+                                        <h3 className="text-base text-sm font-medium ">
                                             {consultant.name}
                                         </h3>
                                         <p className="text-gray-600 text-sm">{consultant.role}</p>

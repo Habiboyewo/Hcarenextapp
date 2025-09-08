@@ -19,7 +19,7 @@ export default function HomeAboutusComp() {
                     </div>
                 </div>
                 <div className="mt- text-right mt-3">
-                    <Link href="*" className="text-blue-600 text-sm hover:underline ">
+                    <Link href="/aboutus" className="text-blue-600 text-sm hover:underline ">
                         Read more...
                     </Link>
                 </div>

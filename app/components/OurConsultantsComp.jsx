@@ -2,7 +2,7 @@ import prisma from "@/lib/prisma";
 import Image from "next/image";
 import Link from "next/link";
 export default async function OurConsultantComp() {
-   
+
   const ourConsultnts = await prisma.consultant.findMany({ take: 3 });
 
   return (
@@ -41,7 +41,7 @@ export default async function OurConsultantComp() {
           ))}
         </div>
         <div className="mt- text-right mt-3">
-          <Link href="*" className="text-blue-600 text-sm hover:underline ">
+          <Link href="/consultants" className="text-blue-600 text-sm hover:underline ">
             Read more...
           </Link>
         </div>

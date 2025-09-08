@@ -6,7 +6,7 @@ export default async function ServiceComponent() {
   const services = await prisma.service.findMany({ take: 3 });
   return (
     <section>
-      <div className="max-w-6xl m-auto px-8 md:px-10 lg:px-5">
+      <div className="max-w-6xl m-auto px-8 md:px-10 lg:px-5  pt-8 ">
         <h2 className="mt-5 text-center font-medium text-2xl">Our Services</h2>
         <p className="mb-6 mt-3 text-center">
           Lorem ipsum dolor sit amet consectetur. Quisque et et vitae dolor.
@@ -35,7 +35,7 @@ export default async function ServiceComponent() {
           ))}
         </div>
         <div className="mt-3 text-right mb-8">
-          <Link href="*" className="text-blue-600 text-sm hover:underline ">
+          <Link href="/ourservices" className="text-blue-600 text-sm hover:underline ">
             Read more...
           </Link>
         </div>
