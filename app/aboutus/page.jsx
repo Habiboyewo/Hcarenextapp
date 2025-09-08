@@ -24,7 +24,7 @@ export default function AboutUsPage() {
              
                 <div className="flex justify-center">
                     <Image
-                        src="/aboutusimage.png"
+                        src="/Aboutusimage.png"
                         alt="About us"
                         width={450}
                         height={350}
